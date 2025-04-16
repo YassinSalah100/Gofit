@@ -12,11 +12,11 @@ import Login from "./components/Login"
 import Signup from "./components/Signup"
 
 // Admin components
-import AdminLogin from "./components/AdminLogin"
-import AdminDashboard from "./components/AdminDashboard"
-import AdminHome from "./components/AdminHome"
-import ProductList from "./components/ProductList"
-import ProductForm from "./components/ProductForm"
+import AdminLogin from "./Admin/AdminLogin"
+import AdminDashboard from "./Admin/AdminDashboard"
+import AdminHome from "./Admin/AdminHome"
+import ProductList from "./Admin/ProductList"
+import ProductForm from "./Admin/ProductForm"
 // Define the type for the AdminRoute props
 interface AdminRouteProps {
   children: React.ReactNode
